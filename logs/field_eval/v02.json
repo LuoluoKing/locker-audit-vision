@@ -1,0 +1,48 @@
+{
+ "key": "v02",
+ "file": "20250530凯普迅：复旦大学，外卖柜取餐_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  32.7
+ ],
+ "size": [
+  852,
+  480
+ ],
+ "frames": 981,
+ "wall_s": 34.0,
+ "counts": {
+  "MULTI_RETRIEVAL": 3,
+  "ROI_INTRUSION": 1
+ },
+ "events": [
+  {
+   "t": 2.7,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 14.97,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#1 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 15.97,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#2 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 23.17,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#7 手上持有 2 份外卖（阈值 2 份）"
+  }
+ ],
+ "normal_retrievals": 1,
+ "stats": {
+  "active_tracks": 5,
+  "tracks_total": 8,
+  "normal_retrievals": 1,
+  "suppressed_by_cooldown": 404
+ }
+}

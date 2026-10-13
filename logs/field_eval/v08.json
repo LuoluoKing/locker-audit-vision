@@ -1,0 +1,52 @@
+{
+ "key": "v08",
+ "file": "常熟理工学院两校区外卖柜已到位！_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  31.8
+ ],
+ "size": [
+  1280,
+  720
+ ],
+ "frames": 952,
+ "wall_s": 37.2,
+ "counts": {
+  "MULTI_RETRIEVAL": 5
+ },
+ "events": [
+  {
+   "t": 14.2,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#3 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 15.47,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#4 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 17.13,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#5 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 17.73,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#6 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 24.5,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#8 手上持有 7 份外卖（阈值 2 份）"
+  }
+ ],
+ "normal_retrievals": 0,
+ "stats": {
+  "active_tracks": 5,
+  "tracks_total": 8,
+  "normal_retrievals": 0,
+  "suppressed_by_cooldown": 156
+ }
+}

@@ -1,0 +1,20 @@
+\documentclass[journal,article,submit,oneauthor]{Definitions/mdpi}
+\firstpage{1}
+\pubvolume{1}\issuenum{1}\articlenumber{0}\pubyear{2026}\copyrightyear{2026}
+\datereceived{}\daterevised{}\dateaccepted{}\datepublished{}
+\Title{Probe}
+\Author{Author One $^{1,}$*}
+\AuthorNames{Author One}
+\address{$^{1}$ \quad Affil; a@b.c}
+\corres{Correspondence: a@b.c}
+\abstract{x}
+\keyword{a}
+\makeatletter
+\AtBeginDocument{%
+  \typeout{PROBE marginparwidth=\the\marginparwidth marginparsep=\the\marginparsep textwidth=\the\textwidth oddsidemargin=\the\oddsidemargin}%
+  \typeout{PROBE reversemargin=\if@reversemargin TRUE\else FALSE\fi}%
+}
+\makeatother
+\begin{document}
+Test. \marginnote[leftnote]{} And more text here.
+\end{document}

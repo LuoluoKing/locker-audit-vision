@@ -1,0 +1,68 @@
+{
+ "key": "v13",
+ "file": "智能快递柜演示视频_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  59.5
+ ],
+ "size": [
+  720,
+  720
+ ],
+ "frames": 1781,
+ "wall_s": 122.4,
+ "counts": {
+  "MULTI_RETRIEVAL": 6,
+  "ROI_INTRUSION": 2
+ },
+ "events": [
+  {
+   "t": 26.59,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#2 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 29.93,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#5 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 37.14,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#6 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 39.67,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#7 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 45.95,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#8 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 46.11,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#8 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 51.15,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#9 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 51.45,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#9 手上持有 2 份外卖（阈值 2 份）"
+  }
+ ],
+ "normal_retrievals": 5,
+ "stats": {
+  "active_tracks": 3,
+  "tracks_total": 9,
+  "normal_retrievals": 5,
+  "suppressed_by_cooldown": 326
+ }
+}

@@ -1,0 +1,252 @@
+{
+ "key": "v11",
+ "file": "无接触取餐 外卖“快递柜”扩大铺设，你接受吗？_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  84.1
+ ],
+ "size": [
+  1280,
+  720
+ ],
+ "frames": 2523,
+ "wall_s": 186.0,
+ "counts": {
+  "DOOR_CLOSED": 6,
+  "DOOR_LEFT_OPEN": 7,
+  "FLAGGED_DOOR_RETRIEVAL": 1,
+  "LOITERING": 1,
+  "MULTI_RETRIEVAL": 22,
+  "ROI_INTRUSION": 7
+ },
+ "events": [
+  {
+   "t": 0.33,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#2 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 0.37,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#1 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 1.3,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#6 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 3.67,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#2 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 5.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#10 手上持有 4 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 8.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#11 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 8.7,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#12 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 10.3,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#12 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 12.43,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#5 手上持有 10 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 12.43,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#14 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 16.83,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#3 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 16.83,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#15 手上持有 6 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 16.83,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#16 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 23.63,
+   "type": "LOITERING",
+   "detail": "目标#12 在外围徘徊 15.0s，进出取餐区 4 次未取餐（阈值 15.0s/3 次）"
+  },
+  {
+   "t": 26.57,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#18 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 28.87,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 3 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 31.1,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#19 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 32.73,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#19 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 35.57,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 0 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 37.7,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 1 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 37.77,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 5 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 39.77,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#20 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 39.77,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#21 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 40.17,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#23 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 40.4,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#24 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 46.07,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 0 号门已连续关闭 1.5s，未关标记解除（标记持续 10.5s）"
+  },
+  {
+   "t": 46.07,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 1 号门已连续关闭 1.5s，未关标记解除（标记持续 8.4s）"
+  },
+  {
+   "t": 46.07,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 5 号门已连续关闭 1.5s，未关标记解除（标记持续 8.3s）"
+  },
+  {
+   "t": 46.1,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 3 号门已连续关闭 1.5s，未关标记解除（标记持续 17.2s）"
+  },
+  {
+   "t": 50.83,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#31 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 52.37,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#32 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 55.27,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#33 手上持有 5 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 62.13,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 5 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 64.17,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#35 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 64.17,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#36 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 65.33,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#36 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 67.03,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 5 号门已连续关闭 1.5s，未关标记解除（标记持续 4.9s）"
+  },
+  {
+   "t": 68.27,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#37 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 68.7,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 1 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 74.37,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 3 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 79.6,
+   "type": "FLAGGED_DOOR_RETRIEVAL",
+   "detail": "柜格 3 号门处于「未关」标记状态，目标#38 取走了柜内外卖（2 份 → 1 份）"
+  },
+  {
+   "t": 80.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#38 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 80.1,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#38 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 83.83,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 1 号门已连续关闭 1.5s，未关标记解除（标记持续 15.1s）"
+  }
+ ],
+ "normal_retrievals": 11,
+ "stats": {
+  "active_tracks": 5,
+  "tracks_total": 40,
+  "normal_retrievals": 11,
+  "suppressed_by_cooldown": 1869
+ }
+}

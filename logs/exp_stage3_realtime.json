@@ -1,0 +1,65 @@
+{
+  "runs": [
+    {
+      "source": "selftest_scene.mp4",
+      "source_resolution": "0x0",
+      "src_fps": 15.0,
+      "backend": "yolov8n",
+      "started": true,
+      "display_fps": 14.93,
+      "detect_fps": 14.93,
+      "infer_ms": 31.81,
+      "detect_interval": 1,
+      "detect_skipped": 0,
+      "processed_frames": 478,
+      "events": 3,
+      "source_kind": "合成素材"
+    },
+    {
+      "source": "01.avi",
+      "source_resolution": "0x0",
+      "src_fps": 25.0,
+      "backend": "yolov8n",
+      "started": true,
+      "display_fps": 24.27,
+      "detect_fps": 7.7,
+      "infer_ms": 33.29,
+      "detect_interval": 4,
+      "detect_skipped": 509,
+      "processed_frames": 777,
+      "events": 1,
+      "source_kind": "真实监控素材"
+    },
+    {
+      "source": "selftest_scene.mp4",
+      "source_resolution": "0x0",
+      "src_fps": 15.0,
+      "backend": "hog",
+      "started": true,
+      "display_fps": 14.89,
+      "detect_fps": 14.91,
+      "infer_ms": 25.74,
+      "detect_interval": 1,
+      "detect_skipped": 0,
+      "processed_frames": 478,
+      "events": 3,
+      "source_kind": "合成素材"
+    },
+    {
+      "source": "01.avi",
+      "source_resolution": "0x0",
+      "src_fps": 25.0,
+      "backend": "hog",
+      "started": true,
+      "display_fps": 24.04,
+      "detect_fps": 11.54,
+      "infer_ms": 26.63,
+      "detect_interval": 2,
+      "detect_skipped": 394,
+      "processed_frames": 787,
+      "events": 5,
+      "source_kind": "真实监控素材"
+    }
+  ],
+  "detect_fps_requested": 15.0
+}

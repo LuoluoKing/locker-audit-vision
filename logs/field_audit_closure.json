@@ -1,0 +1,58 @@
+{
+ "site": "v04 (Campus locker bank, smoked-glass doors)",
+ "frames": 7209,
+ "duration_s": 240.3,
+ "runs": {
+  "uncalibrated": {
+   "log": "logs/field_eval/v04.json",
+   "mode": "default",
+   "eta": null,
+   "counts": {
+    "DOOR_CLOSED": 6,
+    "DOOR_LEFT_OPEN": 11,
+    "FLAGGED_DOOR_RETRIEVAL": 2,
+    "MULTI_RETRIEVAL": 22,
+    "ROI_INTRUSION": 7
+   },
+   "total": 48,
+   "door_derived": 19,
+   "door_breakdown": {
+    "DOOR_CLOSED": 6,
+    "DOOR_LEFT_OPEN": 11,
+    "FLAGGED_DOOR_RETRIEVAL": 2
+   }
+  },
+  "geometry_only": {
+   "log": "logs/field_eval/v04_cal015.json",
+   "mode": "file:logs/field_calib/v04.json",
+   "eta": 0.15,
+   "counts": {
+    "DOOR_CLOSED": 4,
+    "DOOR_LEFT_OPEN": 16,
+    "LOITERING": 4,
+    "MULTI_RETRIEVAL": 22,
+    "ROI_INTRUSION": 17
+   },
+   "total": 63,
+   "door_derived": 20,
+   "door_breakdown": {
+    "DOOR_CLOSED": 4,
+    "DOOR_LEFT_OPEN": 16
+   }
+  },
+  "audited_full": {
+   "log": "logs/field_eval/v04_cal055.json",
+   "mode": "file:logs/field_calib/v04.json",
+   "eta": 0.55,
+   "counts": {
+    "LOITERING": 4,
+    "MULTI_RETRIEVAL": 22,
+    "ROI_INTRUSION": 17
+   },
+   "total": 43,
+   "door_derived": 0,
+   "door_breakdown": {}
+  }
+ },
+ "finding": "Geometry recalibration alone does not remove the spurious door alarms (19 -> 20); applying the door-appearance audit threshold eta=0.55 with the same audited geometry removes all door-derived events (20 -> 0)."
+}

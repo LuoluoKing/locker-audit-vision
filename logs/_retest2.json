@@ -1,0 +1,1355 @@
+{
+  "results": [
+    {
+      "clip": "long_dwell_001",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_002",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_003",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_004",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_005",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_006",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_007",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_008",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_009",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_010",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_011",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_012",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_013",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_014",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_015",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_016",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_017",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_018",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_019",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_020",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_021",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [
+        "LONG_DWELL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.0s（阈值 8.0s）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_001",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_002",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_003",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.67,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_004",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_005",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_006",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_007",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_008",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_009",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_010",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_011",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_012",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_013",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_014",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_015",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_016",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_017",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_018",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_019",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_020",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_021",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "clips": 42,
+    "hit": 42,
+    "miss": 0,
+    "fp": 0,
+    "ok": 42
+  }
+}

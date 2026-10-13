@@ -1,0 +1,1174 @@
+{
+  "results": [
+    {
+      "clip": "door_left_open_001",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 5,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.93,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_005",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 4,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.93,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_009",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.87,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_013",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [
+        "LONG_DWELL"
+      ],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.73,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        },
+        {
+          "t": 12.53,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_017",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.67,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_021",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.27,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_004",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 6,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.53,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.2,
+          "type": "FLAGGED_DOOR_RETRIEVAL",
+          "detail": "柜格 2 号门处于「未关」标记状态，目标#2 取走了柜内外卖（1 份 → 0 份）"
+        },
+        {
+          "t": 17.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_008",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 4,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.33,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_012",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 4,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.27,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_016",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 7,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.6,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_020",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 6,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.93,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_003",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "LOITERING",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [
+        "LOITERING"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 13,
+      "timeline": [
+        {
+          "t": 0.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.0,
+          "type": "LOITERING",
+          "detail": "目标#1 在外围徘徊 15.0s，进出取餐区 12 次未取餐（阈值 15.0s/3 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_007",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "LOITERING",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [
+        "LOITERING"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 13,
+      "timeline": [
+        {
+          "t": 0.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.0,
+          "type": "LOITERING",
+          "detail": "目标#1 在外围徘徊 15.0s，进出取餐区 10 次未取餐（阈值 15.0s/3 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_011",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "LOITERING",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [
+        "LOITERING"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 16,
+      "timeline": [
+        {
+          "t": 0.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.0,
+          "type": "LOITERING",
+          "detail": "目标#1 在外围徘徊 15.0s，进出取餐区 13 次未取餐（阈值 15.0s/3 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_015",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "LOITERING",
+        "LONG_DWELL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [
+        "LOITERING"
+      ],
+      "miss": [],
+      "fp": [
+        "LONG_DWELL"
+      ],
+      "normal_retrievals": 10,
+      "timeline": [
+        {
+          "t": 0.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 9.27,
+          "type": "LONG_DWELL",
+          "detail": "目标#1 在取餐区持续停留 8.1s（阈值 8.0s）"
+        },
+        {
+          "t": 18.93,
+          "type": "LOITERING",
+          "detail": "目标#2 在外围徘徊 15.0s，进出取餐区 8 次未取餐（阈值 15.0s/3 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_019",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [],
+      "miss": [
+        "LOITERING"
+      ],
+      "fp": [],
+      "normal_retrievals": 10,
+      "timeline": [
+        {
+          "t": 0.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#3 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_002",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "DOOR_CLOSED",
+        "DOOR_LEFT_OPEN",
+        "LOITERING",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [],
+      "miss": [
+        "LONG_DWELL"
+      ],
+      "fp": [
+        "DOOR_LEFT_OPEN",
+        "LOITERING"
+      ],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.47,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 12.47,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 4 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 12.8,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 5 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 14.73,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 2 号门已连续关闭 1.5s，未关标记解除（标记持续 2.3s）"
+        },
+        {
+          "t": 14.8,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 4 号门已连续关闭 1.5s，未关标记解除（标记持续 2.3s）"
+        },
+        {
+          "t": 15.47,
+          "type": "LOITERING",
+          "detail": "目标#1 在外围徘徊 15.0s，进出取餐区 4 次未取餐（阈值 15.0s/3 次）"
+        },
+        {
+          "t": 15.6,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 5 号门已连续关闭 1.5s，未关标记解除（标记持续 2.8s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_006",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "DOOR_CLOSED",
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [],
+      "miss": [
+        "LONG_DWELL"
+      ],
+      "fp": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "normal_retrievals": 5,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.53,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 0 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 12.53,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 12.53,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 4 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 12.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 14.67,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 0 号门已连续关闭 1.5s，未关标记解除（标记持续 2.1s）"
+        },
+        {
+          "t": 14.87,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 2 号门已连续关闭 1.5s，未关标记解除（标记持续 2.3s）"
+        },
+        {
+          "t": 15.07,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 4 号门已连续关闭 1.5s，未关标记解除（标记持续 2.5s）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_010",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [],
+      "miss": [
+        "LONG_DWELL"
+      ],
+      "fp": [],
+      "normal_retrievals": 5,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_014",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [],
+      "miss": [
+        "LONG_DWELL"
+      ],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "long_dwell_018",
+      "behavior": "long_dwell",
+      "label_cn": "长时间停留",
+      "is_abnormal": 1,
+      "frames": 240,
+      "fires": [
+        "DOOR_CLOSED",
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LONG_DWELL"
+      ],
+      "hit": [],
+      "miss": [
+        "LONG_DWELL"
+      ],
+      "fp": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 13.0,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 13.0,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 4 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 13.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#2 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 13.33,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 5 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 14.73,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 2 号门已连续关闭 1.5s，未关标记解除（标记持续 1.7s）"
+        },
+        {
+          "t": 14.8,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 4 号门已连续关闭 1.5s，未关标记解除（标记持续 1.8s）"
+        },
+        {
+          "t": 15.6,
+          "type": "DOOR_CLOSED",
+          "detail": "柜格 5 号门已连续关闭 1.5s，未关标记解除（标记持续 2.3s）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_001",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [],
+      "miss": [
+        "MULTI_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 5,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_005",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [],
+      "miss": [
+        "MULTI_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 5,
+      "timeline": [
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_009",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [],
+      "miss": [
+        "MULTI_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_013",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [],
+      "miss": [
+        "MULTI_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_017",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [],
+      "miss": [
+        "MULTI_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_021",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [],
+      "miss": [
+        "MULTI_RETRIEVAL"
+      ],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_004",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_008",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 4,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_012",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 2,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_016",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 4,
+      "timeline": [
+        {
+          "t": 1.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_020",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 4,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_024",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_028",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 4,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_032",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 3,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#1 进入取餐区（累计第 1 次）"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "clips": 35,
+    "hit": 15,
+    "miss": 16,
+    "fp": 5,
+    "ok": 17
+  }
+}

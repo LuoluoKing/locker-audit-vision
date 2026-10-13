@@ -1,0 +1,22 @@
+{
+  "host": "127.0.0.1",
+  "port": 5000,
+  "source": "",
+  "loop_playback": true,
+  "display_fps": 30.0,
+  "detect_fps": 15.0,
+  "autostart": true,
+  "backend": "auto",
+  "model_path": "D:\\黄金辉-基于多模态感知与边缘智能的校园外卖无感安防系统\\tianyan_project\\models\\yolov8n.pt",
+  "device": "cpu",
+  "conf_threshold": 0.35,
+  "iou_threshold": 0.5,
+  "imgsz": 480,
+  "torch_threads": 0,
+  "hog_resize": 320,
+  "db_path": "D:\\黄金辉-基于多模态感知与边缘智能的校园外卖无感安防系统\\tianyan_project\\data\\tianyan.db",
+  "snapshot_dir": "D:\\黄金辉-基于多模态感知与边缘智能的校园外卖无感安防系统\\tianyan_project\\data\\snapshots",
+  "device_id": "edge-01",
+  "device_name": "边缘节点-01（本机 CPU）",
+  "server": "flask"
+}

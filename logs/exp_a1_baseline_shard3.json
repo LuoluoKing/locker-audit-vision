@@ -1,0 +1,212 @@
+{
+  "door_left_open_004": {
+    "frames": 330,
+    "frames_with_person": 102,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "door_left_open_008": {
+    "frames": 330,
+    "frames_with_person": 99,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "door_left_open_012": {
+    "frames": 330,
+    "frames_with_person": 99,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "door_left_open_016": {
+    "frames": 330,
+    "frames_with_person": 64,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "door_left_open_020": {
+    "frames": 330,
+    "frames_with_person": 98,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "flagged_door_retrieval_003": {
+    "frames": 330,
+    "frames_with_person": 172,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "flagged_door_retrieval_007": {
+    "frames": 330,
+    "frames_with_person": 158,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "flagged_door_retrieval_011": {
+    "frames": 330,
+    "frames_with_person": 140,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "flagged_door_retrieval_015": {
+    "frames": 330,
+    "frames_with_person": 150,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "flagged_door_retrieval_019": {
+    "frames": 330,
+    "frames_with_person": 171,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "loitering_002": {
+    "frames": 315,
+    "frames_with_person": 286,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "loitering_006": {
+    "frames": 315,
+    "frames_with_person": 298,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "loitering_010": {
+    "frames": 315,
+    "frames_with_person": 287,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "loitering_014": {
+    "frames": 315,
+    "frames_with_person": 295,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "loitering_018": {
+    "frames": 315,
+    "frames_with_person": 288,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "long_dwell_001": {
+    "frames": 240,
+    "frames_with_person": 201,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "long_dwell_005": {
+    "frames": 240,
+    "frames_with_person": 204,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "long_dwell_009": {
+    "frames": 240,
+    "frames_with_person": 203,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "long_dwell_013": {
+    "frames": 240,
+    "frames_with_person": 199,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "long_dwell_017": {
+    "frames": 240,
+    "frames_with_person": 211,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "long_dwell_021": {
+    "frames": 240,
+    "frames_with_person": 211,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "multi_retrieval_004": {
+    "frames": 165,
+    "frames_with_person": 118,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "multi_retrieval_008": {
+    "frames": 165,
+    "frames_with_person": 118,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "multi_retrieval_012": {
+    "frames": 165,
+    "frames_with_person": 118,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "multi_retrieval_016": {
+    "frames": 165,
+    "frames_with_person": 87,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "multi_retrieval_020": {
+    "frames": 165,
+    "frames_with_person": 114,
+    "is_abnormal": 1,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_003": {
+    "frames": 150,
+    "frames_with_person": 85,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_007": {
+    "frames": 150,
+    "frames_with_person": 100,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_011": {
+    "frames": 150,
+    "frames_with_person": 102,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_015": {
+    "frames": 150,
+    "frames_with_person": 102,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_019": {
+    "frames": 150,
+    "frames_with_person": 100,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_023": {
+    "frames": 150,
+    "frames_with_person": 56,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_027": {
+    "frames": 150,
+    "frames_with_person": 61,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_031": {
+    "frames": 150,
+    "frames_with_person": 77,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  },
+  "normal_pickup_035": {
+    "frames": 150,
+    "frames_with_person": 100,
+    "is_abnormal": 0,
+    "predicted_abnormal": 1
+  }
+}

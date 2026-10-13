@@ -1,0 +1,58 @@
+{
+  "parameter": "door_open_alarm_s",
+  "method": "analytic replay of recorded timelines",
+  "clips": 119,
+  "fps": 15.0,
+  "tau_measured": 10.0,
+  "points": {
+    "5": {
+      "DOOR_LEFT_OPEN": {
+        "TP": 42,
+        "expected": 42,
+        "recall": 1.0
+      },
+      "FLAGGED_DOOR_RETRIEVAL": {
+        "TP": 21,
+        "expected": 21,
+        "recall": 1.0
+      }
+    },
+    "10": {
+      "DOOR_LEFT_OPEN": {
+        "TP": 42,
+        "expected": 42,
+        "recall": 1.0
+      },
+      "FLAGGED_DOOR_RETRIEVAL": {
+        "TP": 21,
+        "expected": 21,
+        "recall": 1.0
+      }
+    },
+    "15": {
+      "DOOR_LEFT_OPEN": {
+        "TP": 42,
+        "expected": 42,
+        "recall": 1.0
+      },
+      "FLAGGED_DOOR_RETRIEVAL": {
+        "TP": 0,
+        "expected": 21,
+        "recall": 0.0
+      }
+    },
+    "20": {
+      "DOOR_LEFT_OPEN": {
+        "TP": 0,
+        "expected": 42,
+        "recall": 0.0
+      },
+      "FLAGGED_DOOR_RETRIEVAL": {
+        "TP": 0,
+        "expected": 21,
+        "recall": 0.0
+      }
+    }
+  },
+  "self_check_passed": true
+}

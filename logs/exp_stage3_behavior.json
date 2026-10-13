@@ -1,0 +1,146 @@
+{
+  "A1_仅YOLOv8n检测（无规则）": {
+    "detector_only": true,
+    "segments": {
+      "TP": 84,
+      "FP": 35,
+      "FN": 0,
+      "TN": 0,
+      "precision": 0.7059,
+      "recall": 1.0,
+      "f1": 0.8276,
+      "accuracy": 0.7059,
+      "false_alarm_rate": 1.0,
+      "miss_rate": 0.0
+    },
+    "person_detected_segments": 119
+  },
+  "A2_YOLOv8n_规则引擎": {
+    "segments": {
+      "TP": 84,
+      "FP": 0,
+      "FN": 0,
+      "TN": 35,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "false_alarm_rate": 0.0,
+      "miss_rate": 0.0
+    },
+    "events": {
+      "per_type": [
+        {
+          "event_type": "DOOR_LEFT_OPEN",
+          "TP": 42,
+          "FP": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "event_type": "FLAGGED_DOOR_RETRIEVAL",
+          "TP": 21,
+          "FP": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "event_type": "LOITERING",
+          "TP": 21,
+          "FP": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "event_type": "MULTI_RETRIEVAL",
+          "TP": 21,
+          "FP": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ],
+      "micro": {
+        "TP": 105,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "macro_f1": 1.0
+    },
+    "clips": 119
+  },
+  "A3_HOG_规则引擎": {
+    "segments": {
+      "TP": 60,
+      "FP": 0,
+      "FN": 24,
+      "TN": 35,
+      "precision": 1.0,
+      "recall": 0.7143,
+      "f1": 0.8333,
+      "accuracy": 0.7983,
+      "false_alarm_rate": 0.0,
+      "miss_rate": 0.2857
+    },
+    "events": {
+      "per_type": [
+        {
+          "event_type": "DOOR_LEFT_OPEN",
+          "TP": 42,
+          "FP": 0,
+          "FN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "event_type": "FLAGGED_DOOR_RETRIEVAL",
+          "TP": 1,
+          "FP": 0,
+          "FN": 20,
+          "precision": 1.0,
+          "recall": 0.0476,
+          "f1": 0.0909
+        },
+        {
+          "event_type": "LOITERING",
+          "TP": 18,
+          "FP": 6,
+          "FN": 3,
+          "precision": 0.75,
+          "recall": 0.8571,
+          "f1": 0.8
+        },
+        {
+          "event_type": "MULTI_RETRIEVAL",
+          "TP": 0,
+          "FP": 0,
+          "FN": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      ],
+      "micro": {
+        "TP": 61,
+        "FP": 6,
+        "FN": 44,
+        "precision": 0.9104,
+        "recall": 0.581,
+        "f1": 0.7093
+      },
+      "macro_f1": 0.4727
+    },
+    "clips": 119
+  }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ app_name }} · 云端管理后台</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="14" rx="2"/>
+        <path d="M7 21h10M12 18v3"/>
+        <path d="M7 10.5h3M7 13.5h6"/>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <div class="brand-title">{{ app_name }} · 云端管理后台</div>
+      <div class="brand-sub">{{ subtitle }}</div>
+    </div>
+  </div>
+  <div class="topbar-spacer"></div>
+  <div class="topbar-right">
+    <span class="badge" id="badgeState"><span class="dot"></span><span>状态 —</span></span>
+    <a class="btn" href="/">返回监控台</a>
+    <button id="btnExport">导出 CSV</button>
+  </div>
+</header>
+
+<div class="wrap stack">
+
+  <!-- KPI -->
+  <div class="kpis" id="kpis"></div>
+
+  <div class="grid" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr)">
+    <div class="card">
+      <div class="card-head"><h3>事件类型分布</h3><span class="spacer"></span>
+        <span class="muted" style="font-size:12px">按当前筛选条件</span></div>
+      <div class="card-body"><div class="dist" id="dist"></div></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>近 14 天事件趋势</h3><span class="spacer"></span>
+        <span class="muted" style="font-size:12px">总量 / 异常</span></div>
+      <div class="card-body"><canvas id="trend" height="188"></canvas></div>
+    </div>
+  </div>
+
+  <!-- 设备状态 -->
+  <div class="card">
+    <div class="card-head"><h3>设备状态</h3><span class="spacer"></span>
+      <span class="muted" style="font-size:12px">边缘节点心跳（每 2 秒上报）</span></div>
+    <div class="table-wrap"><table class="data" id="tblDevices">
+      <thead><tr><th>设备编号</th><th>设备名称</th><th>当前素材</th><th>检测后端</th><th>状态</th>
+        <th>帧率</th><th>单帧推理</th><th>已处理帧</th><th>事件数</th><th>最后上报</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </div>
+
+  <!-- 历史查询 -->
+  <div class="card">
+    <div class="card-head"><h3>事件历史查询</h3><span class="spacer"></span>
+      <button class="ghost" id="btnReset">重置条件</button></div>
+    <div class="card-body">
+      <div class="toolbar">
+        <label class="fld">事件类型
+          <select id="fType"><option value="">全部类型</option></select>
+        </label>
+        <label class="fld">起始时间
+          <input type="datetime-local" id="fStart">
+        </label>
+        <label class="fld">结束时间
+          <input type="datetime-local" id="fEnd">
+        </label>
+        <label class="fld grow">关键词
+          <input type="text" id="fQ" placeholder="匹配详情 / 类型 / 素材名">
+        </label>
+        <label class="fld">范围
+          <select id="fAbnormal">
+            <option value="0">全部事件</option>
+            <option value="1">仅异常事件</option>
+          </select>
+        </label>
+        <button class="primary" id="btnQuery">查询</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="data" id="tblEvents">
+        <thead><tr><th style="width:132px">时间</th><th>类型</th><th>级别</th><th>详情</th>
+          <th style="width:80px">置信度</th><th style="width:64px">目标</th><th>素材</th>
+          <th style="width:86px">截图</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="pager">
+      <span class="info" id="pageInfo">—</span>
+      <button id="btnPrev">上一页</button>
+      <button id="btnNext">下一页</button>
+      <select id="pageSize"><option>20</option><option>50</option><option>100</option></select>
+    </div>
+  </div>
+
+  <!-- 处理会话 -->
+  <div class="card">
+    <div class="card-head"><h3>处理会话记录</h3><span class="spacer"></span>
+      <span class="muted" style="font-size:12px">每次运行的真实统计，用于实验复现核对</span></div>
+    <div class="table-wrap"><table class="data" id="tblSessions">
+      <thead><tr><th>#</th><th>素材</th><th>后端</th><th>分辨率</th><th>开始</th><th>结束</th>
+        <th>处理帧</th><th>耗时(s)</th><th>平均帧率</th><th>平均推理(ms)</th><th>事件数</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </div>
+
+  <div class="notice">
+    数据库：<span class="mono">{{ db_path }}</span> ｜ 设备：{{ device_name }}
+  </div>
+</div>
+
+<footer class="foot">
+  {{ app_name }} · 全部统计口径均来自本机真实运行数据；本页面不生成任何推测性或虚构指标
+</footer>
+
+<div class="lightbox" id="lightbox"><button class="close" id="lbClose">&times;</button><img id="lbImg" alt=""></div>
+
+<script src="{{ url_for('static', filename='admin.js') }}"></script>
+</body>
+</html>

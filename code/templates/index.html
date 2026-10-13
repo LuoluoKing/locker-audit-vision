@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ app_name }} · 实时监控台</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body data-event-catalog='{{ event_catalog | tojson }}'>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3 4 6v6c0 4.4 3.4 8.2 8 9 4.6-.8 8-4.6 8-9V6l-8-3Z"/>
+        <circle cx="12" cy="11.2" r="2.6"/>
+        <path d="M12 13.8V16"/>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <div class="brand-title">{{ app_name }} <span class="muted" style="font-weight:400">· {{ version }}</span></div>
+      <div class="brand-sub">{{ subtitle }}</div>
+    </div>
+  </div>
+  <div class="topbar-spacer"></div>
+  <div class="topbar-right">
+    <span class="badge" id="badgeBackend"><span class="dot"></span><span>检测后端 —</span></span>
+    <span class="badge" id="badgeState"><span class="dot"></span><span>状态 —</span></span>
+    <a class="btn" href="/admin">云端管理后台</a>
+  </div>
+</header>
+
+<div class="wrap stack">
+
+  <!-- 报警横幅：管理员首要关注——未关柜门（持续态）或最近异常事件（60s 内）。
+       「知道了」仅隐藏当前条；出现新的告警（新的柜号集合 / 新事件）会重新弹出。 -->
+  <div id="alertBar" class="alertbar" data-sev="warning" hidden>
+    <span class="alert-icon" aria-hidden="true">!</span>
+    <div class="alert-main">
+      <div class="alert-title" id="alertTitle">—</div>
+      <div class="alert-sub" id="alertSub">—</div>
+    </div>
+    <button class="ghost alert-ack" id="alertAck">知道了</button>
+  </div>
+
+  <!-- 控制条：日常高频（选素材 / 启停）放首行；低频参数收进「高级设置」 -->
+  <div class="card">
+    <div class="card-head">
+      <h3>任务控制</h3>
+      <span class="spacer"></span>
+      <span class="muted" style="font-size:12px">输入源仅支持本地视频文件 / 图片序列，不启用任何摄像头或外部硬件</span>
+    </div>
+    <div class="card-body">
+      <div class="toolbar">
+        <label class="fld grow">视频素材
+          <select id="selSource"></select>
+        </label>
+        <label class="fld">检测后端
+          <select id="selBackend">
+            <option value="auto">自动（YOLOv8n，失败回退 HOG）</option>
+            <option value="yolov8n">YOLOv8n</option>
+            <option value="hog">HOG + SVM 行人检测</option>
+          </select>
+        </label>
+        <button class="primary" id="btnStart">启动</button>
+        <button class="danger" id="btnStop">停止</button>
+        <button id="btnRestart">重新开始</button>
+        <button class="ghost" id="btnAdv" aria-expanded="false">高级设置 ▾</button>
+      </div>
+      <div class="toolbar adv-row" id="advRow" hidden>
+        <label class="fld">检测帧率上限
+          <input type="number" id="inpFps" value="{{ settings.detect_fps }}" min="1" max="30" step="1" style="width:88px">
+        </label>
+        <label class="fld">显示帧率上限
+          <input type="number" id="inpDisplayFps" value="{{ settings.display_fps }}" min="5" max="60" step="5" style="width:88px">
+        </label>
+        <label class="fld">推理尺寸
+          <select id="selImgsz">
+            <option value="640">640（精度优先，约 66ms/帧）</option>
+            <option value="512">512（约 49ms/帧）</option>
+            <option value="480" selected>480（推荐，约 45ms/帧）</option>
+            <option value="416">416（约 34ms/帧）</option>
+            <option value="320">320（约 29ms/帧）</option>
+          </select>
+        </label>
+        <label class="fld">循环播放
+          <select id="selLoop"><option value="1">开启</option><option value="0">关闭</option></select>
+        </label>
+        <button id="btnRefreshSources">刷新素材</button>
+      </div>
+      <div id="msg" class="notice" style="margin-top:12px; display:none"></div>
+    </div>
+  </div>
+
+  <div class="grid grid-main">
+
+    <!-- 左：实时画面 + 指标 -->
+    <div class="stack">
+      <div class="card">
+        <div class="card-head">
+          <h3>实时画面（MJPEG）</h3>
+          <span class="badge live" id="badgeLive" hidden><span class="dot"></span><span>LIVE</span></span>
+          <span class="spacer"></span>
+          <span class="badge" id="badgeSource"><span class="dot"></span><span>—</span></span>
+        </div>
+        <div class="stage">
+          <img id="live" src="/video_feed" alt="实时监控画面">
+          <div class="corner" id="liveCorner">--</div>
+        </div>
+        <!-- AI 生成演示素材（非实拍）声明：仅在选中 real_video/ 素材时显示。
+             该素材不得作为实拍证据，也不参与论文的实验数据统计。 -->
+        <div id="demoNotice" class="notice warn" style="margin:10px 0 0; display:none">{{ ai_demo_notice }}</div>
+        <div class="metrics" id="metrics"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>规则命中分布</h3><span class="spacer"></span>
+          <span class="muted" style="font-size:12px">事件冷却抑制 <b id="cooldownSuppressed">0</b> 次</span>
+        </div>
+        <div class="card-body"><div class="dist" id="dist"></div></div>
+      </div>
+    </div>
+
+    <!-- 右：事件流（首要）+ 状态明细 -->
+    <div class="stack">
+      <div class="card">
+        <div class="card-head"><h3>实时事件流</h3><span class="spacer"></span>
+          <span class="muted" style="font-size:12px">最近 20 条 · 点击截图可放大</span>
+        </div>
+        <div class="events" id="events"><div class="empty">暂无事件</div></div>
+        <div class="pager" style="border-top:1px solid var(--line-soft)">
+          <span class="info">异常事件会同步写入 SQLite 并保存截图</span>
+          <a class="btn" href="/admin">查看全部记录</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>设备与运行状态</h3></div>
+        <div class="card-body"><div class="kv" id="kvStatus"></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="foot">
+  {{ app_name }} {{ version }} · 东北林业大学大学生创新创业训练计划资助项目 ·
+  本页面展示的全部指标均来自本机真实运行，不使用模拟或虚构数据
+</footer>
+
+<div class="lightbox" id="lightbox"><button class="close" id="lbClose">&times;</button><img id="lbImg" alt=""></div>
+
+<script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>

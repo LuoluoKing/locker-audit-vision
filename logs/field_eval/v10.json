@@ -1,0 +1,65 @@
+{
+ "key": "v10",
+ "file": "快递柜使用演示，智能快递柜生产厂家_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  24.4
+ ],
+ "size": [
+  720,
+  1280
+ ],
+ "frames": 732,
+ "wall_s": 30.0,
+ "counts": {
+  "DOOR_LEFT_OPEN": 2,
+  "LOITERING": 1,
+  "MULTI_RETRIEVAL": 3,
+  "ROI_INTRUSION": 1
+ },
+ "events": [
+  {
+   "t": 0.07,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 9.4,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#2 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 10.57,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#2 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 14.87,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 4 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 18.0,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 5 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 23.97,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#3 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 24.37,
+   "type": "LOITERING",
+   "detail": "目标#2 在外围徘徊 15.0s，进出取餐区 3 次未取餐（阈值 15.0s/3 次）"
+  }
+ ],
+ "normal_retrievals": 3,
+ "stats": {
+  "active_tracks": 2,
+  "tracks_total": 3,
+  "normal_retrievals": 3,
+  "suppressed_by_cooldown": 315
+ }
+}

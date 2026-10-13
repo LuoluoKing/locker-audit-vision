@@ -1,0 +1,146 @@
+{
+  "clips_per_config": 20,
+  "configs": {
+    "full": {
+      "label": "complete system",
+      "segments": {
+        "TP": 16,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "events": {
+        "DOOR_LEFT_OPEN": {
+          "TP": 8,
+          "FP": 0,
+          "FN": 0
+        },
+        "FLAGGED_DOOR_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        },
+        "LOITERING": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        },
+        "MULTI_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        }
+      }
+    },
+    "noreid": {
+      "label": "w/o re-association",
+      "segments": {
+        "TP": 12,
+        "FP": 0,
+        "FN": 4,
+        "TN": 4
+      },
+      "events": {
+        "DOOR_LEFT_OPEN": {
+          "TP": 8,
+          "FP": 0,
+          "FN": 0
+        },
+        "FLAGGED_DOOR_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        },
+        "LOITERING": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 4
+        },
+        "MULTI_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        }
+      },
+      "delta_vs_full": {
+        "segments_FN": 4,
+        "event_TP": -4,
+        "per_event_TP_lost": {
+          "LOITERING": 4
+        }
+      }
+    },
+    "nooccl": {
+      "label": "w/o occlusion look-back",
+      "segments": {
+        "TP": 16,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "events": {
+        "DOOR_LEFT_OPEN": {
+          "TP": 8,
+          "FP": 0,
+          "FN": 0
+        },
+        "FLAGGED_DOOR_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        },
+        "LOITERING": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        },
+        "MULTI_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        }
+      },
+      "delta_vs_full": {
+        "segments_FN": 0,
+        "event_TP": 0,
+        "per_event_TP_lost": {}
+      }
+    },
+    "noguard": {
+      "label": "w/o partial-box guards",
+      "segments": {
+        "TP": 16,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "events": {
+        "DOOR_LEFT_OPEN": {
+          "TP": 8,
+          "FP": 0,
+          "FN": 0
+        },
+        "LOITERING": {
+          "TP": 4,
+          "FP": 1,
+          "FN": 0
+        },
+        "FLAGGED_DOOR_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        },
+        "MULTI_RETRIEVAL": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0
+        }
+      },
+      "delta_vs_full": {
+        "segments_FN": 0,
+        "event_TP": 0,
+        "per_event_TP_lost": {}
+      }
+    }
+  }
+}

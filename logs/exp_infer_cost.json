@@ -1,0 +1,28 @@
+{
+  "frame": {
+    "source": "door_left_open_001.mp4",
+    "size": "640x480"
+  },
+  "n": 40,
+  "note": "offline single-thread timing; see module docstring",
+  "yolov8n_detect_ms": {
+    "median": 23.9,
+    "mean": 24.6
+  },
+  "hog320_detect_ms": {
+    "median": 19.6,
+    "mean": 20.0
+  },
+  "yolov8n_full_step_ms": {
+    "median": 26.9,
+    "mean": 27.4
+  },
+  "hog320_full_step_ms": {
+    "median": 22.4,
+    "mean": 23.2
+  },
+  "observation_only_ms": {
+    "median": 2.4,
+    "mean": 2.5
+  }
+}

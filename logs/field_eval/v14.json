@@ -1,0 +1,48 @@
+{
+ "key": "v14",
+ "file": "芜湖高校流行智能外卖柜_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  17.8
+ ],
+ "size": [
+  720,
+  1280
+ ],
+ "frames": 534,
+ "wall_s": 36.7,
+ "counts": {
+  "MULTI_RETRIEVAL": 3,
+  "ROI_INTRUSION": 1
+ },
+ "events": [
+  {
+   "t": 0.07,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 0.7,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#1 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 3.23,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#4 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 10.73,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#5 手上持有 3 份外卖（阈值 2 份）"
+  }
+ ],
+ "normal_retrievals": 1,
+ "stats": {
+  "active_tracks": 1,
+  "tracks_total": 5,
+  "normal_retrievals": 1,
+  "suppressed_by_cooldown": 153
+ }
+}

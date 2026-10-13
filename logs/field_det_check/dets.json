@@ -1,0 +1,132 @@
+[
+ {
+  "key": "v01",
+  "file": "20250529\u51ef\u666e\u8fc5\uff1a\u590d\u65e6\u5927\u5b66\uff0c\u5916\u5356\u67dc\u6ee1\u4e86\uff0c\u5feb\u9012\u5c0f\u54e5\u9001\u9910_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 0,
+  "confs": []
+ },
+ {
+  "key": "v02",
+  "file": "20250530\u51ef\u666e\u8fc5\uff1a\u590d\u65e6\u5927\u5b66\uff0c\u5916\u5356\u67dc\u53d6\u9910_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 2,
+  "confs": [
+   0.94,
+   0.79
+  ]
+ },
+ {
+  "key": "v03",
+  "file": "20250531\u51ef\u666e\u8fc5\uff1a\u590d\u65e6\u5927\u5b66\uff0c\u5916\u5356\u67dc\uff0c\u5feb\u9012\u5c0f\u54e5\u9001\u9910_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.82
+  ]
+ },
+ {
+  "key": "v04",
+  "file": "20250731\u51ef\u666e\u8fc5\uff1a\u5feb\u9012\u67dc\uff0c\u5b58\u53d6\u5feb\u9910_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 3,
+  "confs": [
+   0.85,
+   0.84,
+   0.81
+  ]
+ },
+ {
+  "key": "v05",
+  "file": "\u4ece-\u4e30\u5de2\u5feb\u9012\u67dc-\u53d6\u4ef6\u540e\u5173\u95e8\u7684\u91cd\u8981\u6027_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.89
+  ]
+ },
+ {
+  "key": "v06",
+  "file": "\u5916\u5356\u67dc_\u89c6\u9891 (1).mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.93
+  ]
+ },
+ {
+  "key": "v07",
+  "file": "\u5916\u5356\u67dc_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.85
+  ]
+ },
+ {
+  "key": "v08",
+  "file": "\u5e38\u719f\u7406\u5de5\u5b66\u9662\u4e24\u6821\u533a\u5916\u5356\u67dc\u5df2\u5230\u4f4d\uff01_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.53
+  ]
+ },
+ {
+  "key": "v09",
+  "file": "\u5fc3\u751c\u667a\u80fd\u67dc\u7684\u4f7f\u7528\u6d41\u7a0b_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.92
+  ]
+ },
+ {
+  "key": "v10",
+  "file": "\u5feb\u9012\u67dc\u4f7f\u7528\u6f14\u793a\uff0c\u667a\u80fd\u5feb\u9012\u67dc\u751f\u4ea7\u5382\u5bb6_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.89
+  ]
+ },
+ {
+  "key": "v11",
+  "file": "\u65e0\u63a5\u89e6\u53d6\u9910 \u5916\u5356\u201c\u5feb\u9012\u67dc\u201d\u6269\u5927\u94fa\u8bbe\uff0c\u4f60\u63a5\u53d7\u5417\uff1f_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 0,
+  "confs": []
+ },
+ {
+  "key": "v12",
+  "file": "\u667a\u80fd\u5916\u5356\u4ea4\u63a5\u67dc\u6f14\u793a\u89c6\u9891_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 0,
+  "confs": []
+ },
+ {
+  "key": "v13",
+  "file": "\u667a\u80fd\u5feb\u9012\u67dc\u6f14\u793a\u89c6\u9891_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.63
+  ]
+ },
+ {
+  "key": "v14",
+  "file": "\u829c\u6e56\u9ad8\u6821\u6d41\u884c\u667a\u80fd\u5916\u5356\u67dc_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 0,
+  "confs": []
+ },
+ {
+  "key": "v15",
+  "file": "\u897f\u516d\u697c\u53d6\u9910\u67dc\uff0c\u4ece\u67dc\u5b50\u91cc\u62ff\u5916\u5356\uff0c\u8fd8\u80fd\u4fdd\u6e29\u6d88\u6bd2\uff0c\u4f60\u7528\u8fc7\u5417\uff1f_\u89c6\u9891.mp4",
+  "t_frac": 0.55,
+  "dets": 1,
+  "confs": [
+   0.87
+  ]
+ }
+]

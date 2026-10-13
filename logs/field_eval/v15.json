@@ -1,0 +1,59 @@
+{
+ "key": "v15",
+ "file": "西六楼取餐柜，从柜子里拿外卖，还能保温消毒，你用过吗？_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  46.5
+ ],
+ "size": [
+  1280,
+  720
+ ],
+ "frames": 1394,
+ "wall_s": 91.1,
+ "counts": {
+  "LOITERING": 1,
+  "MULTI_RETRIEVAL": 3,
+  "ROI_INTRUSION": 2
+ },
+ "events": [
+  {
+   "t": 3.77,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 4.73,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#2 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 8.33,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#1 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 18.67,
+   "type": "LOITERING",
+   "detail": "目标#1 在外围徘徊 15.0s，进出取餐区 3 次未取餐（阈值 15.0s/3 次）"
+  },
+  {
+   "t": 34.1,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 37.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#5 手上持有 3 份外卖（阈值 2 份）"
+  }
+ ],
+ "normal_retrievals": 6,
+ "stats": {
+  "active_tracks": 2,
+  "tracks_total": 6,
+  "normal_retrievals": 6,
+  "suppressed_by_cooldown": 606
+ }
+}

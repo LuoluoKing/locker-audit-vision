@@ -1,0 +1,95 @@
+# =====================================================================
+# 天眼哨兵 — 仓库忽略规则
+# 原则：只发布「可复现所需」的源码 / 脚本 / 配置 / JSON 日志 / 论文源件；
+#       不发布第三方版权视频、大体积二进制、构建中间产物。
+# 依据：论文 Data Availability 已声明——公开录像仅作分析输入，不再分发。
+# =====================================================================
+
+# ---- 运行环境与依赖 ------------------------------------------------
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cw_skill/
+_q_shot/
+
+# ---- 模型权重（第三方，使用者自行下载）----------------------------
+models/*.pt
+models/*.onnx
+
+# ---- 第三方版权素材：一律不分发 -------------------------------------
+EXAMPLE/
+real_video/
+data/public_downloads/
+data/videos/
+data/snapshots/
+data/real_video/
+
+# ---- 大体积渲染视频（可由脚本重新生成）----------------------------
+*.mp4
+*.avi
+*.mov
+
+# ---- 由第三方视频派生的帧 / 快照 / 联系表 ---------------------------
+logs/field_frames/
+logs/field_calib/
+logs/field_eval/*.png
+logs/real_check/
+logs/locker_designs/
+logs/**/*.png
+logs/**/*.jpg
+logs/**/*.jpeg
+
+# ---- 构建中间产物（保留 build/main.pdf 与 Main_Manuscript_*.pdf）----
+paper/applsci_mdpi/build/*.aux
+paper/applsci_mdpi/build/*.log
+paper/applsci_mdpi/build/*.blg
+paper/applsci_mdpi/build/*.out
+paper/applsci_mdpi/build/*.bbl
+paper/applsci_mdpi/build/*.toc
+paper/**/_bundle/
+paper/**/*.zip
+
+# ---- 内部工作文档（非复现所需，不公开）----------------------------
+docs/
+software_copyright/
+ai_prompts/
+未完成工作_续作清单.md
+paper/applsci_mdpi/终稿审计报告.md
+paper/applsci_mdpi/交付物合规核对表.md
+paper/applsci_mdpi/写作蓝图.md
+
+# ---- 缓存 / 临时诊断（非复现所需）----------------------------------
+logs/tlpdb_cache/
+logs/_tmp_diag/
+logs/_tmp*
+logs/**/_tmp*
+logs/**/*.csv.bak
+logs/archive_intermediate/
+logs/_sample_check/
+logs/_*.txt
+logs/*.log
+logs/selftest_rules_*.txt
+logs/smoke_*.txt
+data/_*/
+data/selftest/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+paper/applsci_mdpi/_parts/
+paper/applsci_mdpi/_cw_gen*.log
+paper/applsci_mdpi/_*_build/
+paper/applsci_mdpi/build/_*.png
+paper/applsci_mdpi/_*.png
+
+# ---- 杂项 ----------------------------------------------------------
+*.tmp
+*.bak
+*.orig
+Thumbs.db
+.desktop.ini
+f5c1f24f-28ea-4a3f-a439-42577ea7f3f8.png
+
+# ---- 只保留 Applied Sciences 投稿包；其余期刊模板/旧版不进仓库 -----
+paper/*
+!paper/applsci_mdpi/

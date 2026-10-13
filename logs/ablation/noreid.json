@@ -1,0 +1,3974 @@
+{
+  "results": [
+    {
+      "clip": "door_left_open_001",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 13.27,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.1s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_002",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.47,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_003",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.33,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "door_left_open_004",
+      "behavior": "door_left_open",
+      "label_cn": "柜门未关",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.93,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_001",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 14.47,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.07,
+          "type": "FLAGGED_DOOR_RETRIEVAL",
+          "detail": "柜格 2 号门处于「未关」标记状态，目标#46 取走了柜内外卖（1 份 → 0 份）"
+        },
+        {
+          "t": 16.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#51 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#56 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#57 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#58 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#59 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#60 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#61 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#62 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#63 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#64 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#65 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#66 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#67 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#68 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#69 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#71 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#72 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#73 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_002",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 13.87,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.0,
+          "type": "FLAGGED_DOOR_RETRIEVAL",
+          "detail": "柜格 2 号门处于「未关」标记状态，目标#38 取走了柜内外卖（1 份 → 0 份）"
+        },
+        {
+          "t": 16.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#51 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#52 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#54 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#55 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#56 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#57 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#58 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#59 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#60 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#61 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#62 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#63 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#64 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#65 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#66 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#67 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#68 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#69 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_003",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#9 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 14.6,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.07,
+          "type": "FLAGGED_DOOR_RETRIEVAL",
+          "detail": "柜格 2 号门处于「未关」标记状态，目标#46 取走了柜内外卖（1 份 → 0 份）"
+        },
+        {
+          "t": 16.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#54 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#55 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#56 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#57 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#58 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#59 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#60 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#61 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#62 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#63 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#64 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#65 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#66 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#67 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#68 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#70 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#71 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#72 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "flagged_door_retrieval_004",
+      "behavior": "flagged_door_retrieval",
+      "label_cn": "取走未关柜门外卖",
+      "is_abnormal": 1,
+      "frames": 330,
+      "fires": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "hit": [
+        "DOOR_LEFT_OPEN",
+        "FLAGGED_DOOR_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 13.07,
+          "type": "DOOR_LEFT_OPEN",
+          "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+        },
+        {
+          "t": 16.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.0,
+          "type": "FLAGGED_DOOR_RETRIEVAL",
+          "detail": "柜格 2 号门处于「未关」标记状态，目标#33 取走了柜内外卖（1 份 → 0 份）"
+        },
+        {
+          "t": 16.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#51 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#52 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 18.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#54 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#55 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#56 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#57 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#58 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#59 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#60 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 19.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#61 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#62 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#63 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 20.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#64 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_001",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [],
+      "miss": [
+        "LOITERING"
+      ],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 0.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#6 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 0.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#7 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#8 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#9 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#51 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#67 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#68 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#70 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#71 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#72 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#73 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#74 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#75 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#76 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#78 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#79 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#80 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#81 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#82 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#83 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#100 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#110 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_002",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [],
+      "miss": [
+        "LOITERING"
+      ],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 0.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#7 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#8 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#9 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#65 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#66 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#68 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#69 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#70 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#71 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#72 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#73 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#74 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#76 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#77 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#78 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#79 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#80 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 14.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#97 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#98 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#107 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_003",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [],
+      "miss": [
+        "LOITERING"
+      ],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#8 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#9 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#52 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#54 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#74 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#75 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#76 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#77 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#78 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#79 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#80 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#82 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#83 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#84 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#86 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#87 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#88 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#89 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 15.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#109 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 16.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#120 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "loitering_004",
+      "behavior": "loitering",
+      "label_cn": "徘徊观察",
+      "is_abnormal": 1,
+      "frames": 315,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "LOITERING"
+      ],
+      "hit": [],
+      "miss": [
+        "LOITERING"
+      ],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 0.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#6 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 0.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#7 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#8 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#9 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#51 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#68 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#69 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 10.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#71 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#72 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#73 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#74 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#75 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#76 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 11.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#77 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#79 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#80 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#81 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#82 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#83 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 12.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#84 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 14.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#100 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 17.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#111 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_001",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#31 手上持有 2 份外卖（阈值 2 份）"
+        },
+        {
+          "t": 7.6,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#32 手上持有 2 份外卖（阈值 2 份）"
+        },
+        {
+          "t": 7.67,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#33 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_002",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#45 手上持有 2 份外卖（阈值 2 份）"
+        },
+        {
+          "t": 7.53,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#46 手上持有 2 份外卖（阈值 2 份）"
+        },
+        {
+          "t": 7.67,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#47 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_003",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.67,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#57 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "multi_retrieval_004",
+      "behavior": "multi_retrieval",
+      "label_cn": "一人取多份",
+      "is_abnormal": 1,
+      "frames": 165,
+      "fires": [
+        "MULTI_RETRIEVAL",
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [
+        "MULTI_RETRIEVAL"
+      ],
+      "hit": [
+        "MULTI_RETRIEVAL"
+      ],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#9 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#45 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#46 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#47 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#48 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#49 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#50 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#53 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 7.47,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#55 手上持有 2 份外卖（阈值 2 份）"
+        },
+        {
+          "t": 7.67,
+          "type": "MULTI_RETRIEVAL",
+          "detail": "目标#57 手上持有 2 份外卖（阈值 2 份）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_001",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_002",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_003",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#18 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#19 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#20 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        }
+      ]
+    },
+    {
+      "clip": "normal_pickup_004",
+      "behavior": "normal_pickup",
+      "label_cn": "正常取餐",
+      "is_abnormal": 0,
+      "frames": 150,
+      "fires": [
+        "ROI_INTRUSION"
+      ],
+      "expect_yes": [],
+      "hit": [],
+      "miss": [],
+      "fp": [],
+      "normal_retrievals": 0,
+      "timeline": [
+        {
+          "t": 1.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#10 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#11 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#12 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#13 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 1.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#14 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#15 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#16 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#17 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 2.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#21 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#22 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.2,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#23 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.33,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#24 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.47,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#25 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#26 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#27 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 3.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#28 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#29 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#30 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#31 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#32 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.6,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#33 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.73,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#34 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 4.87,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#35 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.0,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#36 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.13,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#37 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.27,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#38 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.4,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#39 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.53,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#40 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.67,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#41 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.8,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#42 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 5.93,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#43 进入取餐区（累计第 1 次）"
+        },
+        {
+          "t": 6.07,
+          "type": "ROI_INTRUSION",
+          "detail": "目标#44 进入取餐区（累计第 1 次）"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "clips": 20,
+    "hit": 12,
+    "miss": 4,
+    "fp": 0,
+    "ok": 16
+  }
+}

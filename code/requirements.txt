@@ -1,0 +1,28 @@
+# 天眼哨兵校园外卖无感安防系统 V1.0 — 运行依赖
+# Python >= 3.10（实测 3.13.x）。全部为开源免费组件，无任何付费 API。
+#
+# 安装：
+#   python -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+
+# ---- 必需（核心链路，纯 CPU 可运行）----
+Flask==3.1.3
+Werkzeug==3.1.3
+opencv-python==4.12.0.88
+numpy==2.2.6
+Jinja2==3.1.6
+
+# ---- 可选：YOLOv8n 检测后端 ----
+# 未安装或权重缺失时，detector.py 会自动回退到 OpenCV HOG 行人检测，系统仍可运行。
+# 权重获取（国内网络可用的镜像）：
+#   curl -L -o ../models/yolov8n.pt https://hf-mirror.com/Ultralytics/YOLOv8/resolve/main/yolov8n.pt
+ultralytics==8.4.161
+torch==2.14.0
+torchvision==0.29.0
+
+# ---- 可选：实验图表与数据统计（阶段3）----
+matplotlib==3.10.7
+pandas==2.3.3
+
+# ---- 可选：生产级 WSGI 服务器（app.py --server waitress）----
+waitress==3.0.2

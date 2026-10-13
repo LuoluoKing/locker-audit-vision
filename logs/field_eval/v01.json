@@ -1,0 +1,128 @@
+{
+ "key": "v01",
+ "file": "20250529凯普迅：复旦大学，外卖柜满了，快递小哥送餐_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  45.9
+ ],
+ "size": [
+  852,
+  480
+ ],
+ "frames": 1377,
+ "wall_s": 43.8,
+ "counts": {
+  "MULTI_RETRIEVAL": 17,
+  "ROI_INTRUSION": 3
+ },
+ "events": [
+  {
+   "t": 0.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 4 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 0.23,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#2 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 0.23,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#3 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 2.87,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#5 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 4.37,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#5 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 9.97,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#4 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 29.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#8 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 29.1,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#7 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 30.13,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#9 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 30.67,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#11 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 30.87,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#12 手上持有 4 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 30.9,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#13 手上持有 3 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 31.4,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#14 手上持有 4 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 35.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#17 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 39.77,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#18 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 42.8,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#4 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 44.57,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#19 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 44.6,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#19 进入取餐区（累计第 1 次）"
+  },
+  {
+   "t": 44.73,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#20 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 45.0,
+   "type": "ROI_INTRUSION",
+   "detail": "目标#20 进入取餐区（累计第 1 次）"
+  }
+ ],
+ "normal_retrievals": 5,
+ "stats": {
+  "active_tracks": 11,
+  "tracks_total": 21,
+  "normal_retrievals": 5,
+  "suppressed_by_cooldown": 910
+ }
+}

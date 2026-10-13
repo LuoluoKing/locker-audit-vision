@@ -1,0 +1,150 @@
+{
+ "key": "v07",
+ "file": "外卖柜_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  88.4
+ ],
+ "size": [
+  1280,
+  720
+ ],
+ "frames": 2650,
+ "wall_s": 165.7,
+ "counts": {
+  "DOOR_CLOSED": 6,
+  "DOOR_LEFT_OPEN": 10,
+  "FLAGGED_DOOR_RETRIEVAL": 4,
+  "MULTI_RETRIEVAL": 4
+ },
+ "events": [
+  {
+   "t": 0.0,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 10.0,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 3 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 10.0,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 5 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 12.93,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 1 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 17.17,
+   "type": "FLAGGED_DOOR_RETRIEVAL",
+   "detail": "柜格 3 号门处于「未关」标记状态，目标#1 取走了柜内外卖（1 份 → 0 份）"
+  },
+  {
+   "t": 21.4,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 1 号门已连续关闭 1.5s，未关标记解除（标记持续 8.5s）"
+  },
+  {
+   "t": 21.43,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 3 号门已连续关闭 1.5s，未关标记解除（标记持续 11.4s）"
+  },
+  {
+   "t": 21.43,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 5 号门已连续关闭 1.5s，未关标记解除（标记持续 11.4s）"
+  },
+  {
+   "t": 30.7,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 4 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 31.07,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 32.2,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 0 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 36.47,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#4 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 36.77,
+   "type": "FLAGGED_DOOR_RETRIEVAL",
+   "detail": "柜格 4 号门处于「未关」标记状态，目标#4 取走了柜内外卖（1 份 → 0 份）"
+  },
+  {
+   "t": 38.13,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 0 号门已连续关闭 1.5s，未关标记解除（标记持续 5.9s）"
+  },
+  {
+   "t": 47.43,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 1 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 47.43,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 3 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 47.43,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 5 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  },
+  {
+   "t": 50.03,
+   "type": "FLAGGED_DOOR_RETRIEVAL",
+   "detail": "柜格 2 号门处于「未关」标记状态，目标#4 取走了柜内外卖（1 份 → 0 份）"
+  },
+  {
+   "t": 61.53,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 2 号门已连续关闭 1.5s，未关标记解除（标记持续 30.5s）"
+  },
+  {
+   "t": 66.47,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#4 手上持有 5 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 74.27,
+   "type": "FLAGGED_DOOR_RETRIEVAL",
+   "detail": "柜格 5 号门处于「未关」标记状态，目标#4 取走了柜内外卖（1 份 → 0 份）"
+  },
+  {
+   "t": 75.67,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#5 手上持有 2 份外卖（阈值 2 份）"
+  },
+  {
+   "t": 81.63,
+   "type": "DOOR_CLOSED",
+   "detail": "柜格 3 号门已连续关闭 1.5s，未关标记解除（标记持续 34.2s）"
+  },
+  {
+   "t": 81.87,
+   "type": "DOOR_LEFT_OPEN",
+   "detail": "柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号"
+  }
+ ],
+ "normal_retrievals": 0,
+ "stats": {
+  "active_tracks": 1,
+  "tracks_total": 5,
+  "normal_retrievals": 0,
+  "suppressed_by_cooldown": 1176
+ }
+}

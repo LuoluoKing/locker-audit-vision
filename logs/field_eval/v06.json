@@ -1,0 +1,32 @@
+{
+ "key": "v06",
+ "file": "外卖柜_视频 (1).mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  26.9
+ ],
+ "size": [
+  854,
+  474
+ ],
+ "frames": 805,
+ "wall_s": 48.1,
+ "counts": {
+  "MULTI_RETRIEVAL": 1
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "MULTI_RETRIEVAL",
+   "detail": "目标#1 手上持有 2 份外卖（阈值 2 份）"
+  }
+ ],
+ "normal_retrievals": 0,
+ "stats": {
+  "active_tracks": 1,
+  "tracks_total": 2,
+  "normal_retrievals": 0,
+  "suppressed_by_cooldown": 130
+ }
+}

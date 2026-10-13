@@ -1,0 +1,282 @@
+[
+ {
+  "key": "v01",
+  "label": "Fudan Univ., courier deposit (locker full scenario)",
+  "file": "20250529凯普迅：复旦大学，外卖柜满了，快递小哥送餐_视频.mp4",
+  "dur": 45.9,
+  "size": "852x480",
+  "bright": 82.1,
+  "motion": 2.02,
+  "person_frames": 56,
+  "collision_rate": 0.5536,
+  "apparel_med": 0.1276,
+  "max_blobs": 11,
+  "events": {
+   "MULTI_RETRIEVAL": 17,
+   "ROI_INTRUSION": 3
+  },
+  "events_total": 20
+ },
+ {
+  "key": "v02",
+  "label": "Fudan Univ., pickup",
+  "file": "20250530凯普迅：复旦大学，外卖柜取餐_视频.mp4",
+  "dur": 32.7,
+  "size": "852x480",
+  "bright": 94.0,
+  "motion": 11.11,
+  "person_frames": 28,
+  "collision_rate": 0.3929,
+  "apparel_med": 0.0009,
+  "max_blobs": 5,
+  "events": {
+   "MULTI_RETRIEVAL": 3,
+   "ROI_INTRUSION": 1
+  },
+  "events_total": 4
+ },
+ {
+  "key": "v03",
+  "label": "Fudan Univ., courier deposit (long)",
+  "file": "20250531凯普迅：复旦大学，外卖柜，快递小哥送餐_视频.mp4",
+  "dur": 318.6,
+  "size": "852x480",
+  "bright": 96.0,
+  "motion": 9.09,
+  "person_frames": 149,
+  "collision_rate": 0.4832,
+  "apparel_med": 0.0331,
+  "max_blobs": 13,
+  "events": {
+   "DOOR_CLOSED": 10,
+   "DOOR_LEFT_OPEN": 10,
+   "MULTI_RETRIEVAL": 44,
+   "ROI_INTRUSION": 10
+  },
+  "events_total": 74
+ },
+ {
+  "key": "v04",
+  "label": "Campus locker bank, meal storage/retrieval (static)",
+  "file": "20250731凯普迅：快递柜，存取快餐_视频.mp4",
+  "dur": 240.3,
+  "size": "852x480",
+  "bright": 100.5,
+  "motion": 0.61,
+  "person_frames": 335,
+  "collision_rate": 0.0687,
+  "apparel_med": 0.0013,
+  "max_blobs": 4,
+  "events": {
+   "DOOR_CLOSED": 6,
+   "DOOR_LEFT_OPEN": 11,
+   "FLAGGED_DOOR_RETRIEVAL": 2,
+   "MULTI_RETRIEVAL": 22,
+   "ROI_INTRUSION": 7
+  },
+  "events_total": 48
+ },
+ {
+  "key": "v05",
+  "label": "Fengchao express locker, door-closing PSA",
+  "file": "从-丰巢快递柜-取件后关门的重要性_视频.mp4",
+  "dur": 50.0,
+  "size": "1280x720",
+  "bright": 128.0,
+  "motion": 1.23,
+  "person_frames": 49,
+  "collision_rate": 0.4694,
+  "apparel_med": 0.2961,
+  "max_blobs": 13,
+  "events": {
+   "MULTI_RETRIEVAL": 9,
+   "ROI_INTRUSION": 1
+  },
+  "events_total": 10
+ },
+ {
+  "key": "v06",
+  "label": "Generic food locker (clip 1)",
+  "file": "外卖柜_视频 (1).mp4",
+  "dur": 26.9,
+  "size": "854x474",
+  "bright": 133.2,
+  "motion": 4.66,
+  "person_frames": 27,
+  "collision_rate": 0.1111,
+  "apparel_med": 0.0013,
+  "max_blobs": 3,
+  "events": {
+   "MULTI_RETRIEVAL": 1
+  },
+  "events_total": 1
+ },
+ {
+  "key": "v07",
+  "label": "Indoor food locker room, multi-user",
+  "file": "外卖柜_视频.mp4",
+  "dur": 88.4,
+  "size": "1280x720",
+  "bright": 146.8,
+  "motion": 4.14,
+  "person_frames": 93,
+  "collision_rate": 0.3011,
+  "apparel_med": 0.021,
+  "max_blobs": 4,
+  "events": {
+   "DOOR_CLOSED": 6,
+   "DOOR_LEFT_OPEN": 10,
+   "FLAGGED_DOOR_RETRIEVAL": 4,
+   "MULTI_RETRIEVAL": 4
+  },
+  "events_total": 24
+ },
+ {
+  "key": "v08",
+  "label": "Changshu Inst. Tech., campus lockers",
+  "file": "常熟理工学院两校区外卖柜已到位！_视频.mp4",
+  "dur": 31.8,
+  "size": "1280x720",
+  "bright": 136.8,
+  "motion": 4.74,
+  "person_frames": 12,
+  "collision_rate": 0.4167,
+  "apparel_med": 0.0072,
+  "max_blobs": 13,
+  "events": {
+   "MULTI_RETRIEVAL": 5
+  },
+  "events_total": 5
+ },
+ {
+  "key": "v09",
+  "label": "Xintian smart cabinet, usage flow",
+  "file": "心甜智能柜的使用流程_视频.mp4",
+  "dur": 56.8,
+  "size": "640x368",
+  "bright": 127.3,
+  "motion": 3.07,
+  "person_frames": 42,
+  "collision_rate": 0.1905,
+  "apparel_med": 0.2459,
+  "max_blobs": 3,
+  "events": {
+   "DOOR_CLOSED": 1,
+   "DOOR_LEFT_OPEN": 1,
+   "MULTI_RETRIEVAL": 4
+  },
+  "events_total": 6
+ },
+ {
+  "key": "v10",
+  "label": "Express locker demo (vertical)",
+  "file": "快递柜使用演示，智能快递柜生产厂家_视频.mp4",
+  "dur": 24.4,
+  "size": "720x1280",
+  "bright": 123.5,
+  "motion": 0.63,
+  "person_frames": 21,
+  "collision_rate": 0.4762,
+  "apparel_med": 0.1604,
+  "max_blobs": 5,
+  "events": {
+   "DOOR_LEFT_OPEN": 2,
+   "LOITERING": 1,
+   "MULTI_RETRIEVAL": 3,
+   "ROI_INTRUSION": 1
+  },
+  "events_total": 7
+ },
+ {
+  "key": "v11",
+  "label": "TV report, contactless pickup in pandemic",
+  "file": "无接触取餐 外卖“快递柜”扩大铺设，你接受吗？_视频.mp4",
+  "dur": 84.1,
+  "size": "1280x720",
+  "bright": 135.2,
+  "motion": 5.03,
+  "person_frames": 137,
+  "collision_rate": 0.2993,
+  "apparel_med": 0.0509,
+  "max_blobs": 16,
+  "events": {
+   "DOOR_CLOSED": 6,
+   "DOOR_LEFT_OPEN": 7,
+   "FLAGGED_DOOR_RETRIEVAL": 1,
+   "LOITERING": 1,
+   "MULTI_RETRIEVAL": 22,
+   "ROI_INTRUSION": 7
+  },
+  "events_total": 44
+ },
+ {
+  "key": "v12",
+  "label": "Smart handover cabinet demo",
+  "file": "智能外卖交接柜演示视频_视频.mp4",
+  "dur": 21.1,
+  "size": "1280x720",
+  "bright": 173.0,
+  "motion": 8.32,
+  "person_frames": 0,
+  "collision_rate": 0.0,
+  "apparel_med": null,
+  "max_blobs": 0,
+  "events": {},
+  "events_total": null
+ },
+ {
+  "key": "v13",
+  "label": "Smart express locker demo",
+  "file": "智能快递柜演示视频_视频.mp4",
+  "dur": 59.5,
+  "size": "720x720",
+  "bright": 150.3,
+  "motion": 2.96,
+  "person_frames": 26,
+  "collision_rate": 0.5,
+  "apparel_med": 0.1485,
+  "max_blobs": 7,
+  "events": {
+   "MULTI_RETRIEVAL": 6,
+   "ROI_INTRUSION": 2
+  },
+  "events_total": 8
+ },
+ {
+  "key": "v14",
+  "label": "Wuhu college, food lockers",
+  "file": "芜湖高校流行智能外卖柜_视频.mp4",
+  "dur": 17.8,
+  "size": "720x1280",
+  "bright": 116.6,
+  "motion": 1.96,
+  "person_frames": 6,
+  "collision_rate": 0.6667,
+  "apparel_med": 0.0244,
+  "max_blobs": 19,
+  "events": {
+   "MULTI_RETRIEVAL": 3,
+   "ROI_INTRUSION": 1
+  },
+  "events_total": 4
+ },
+ {
+  "key": "v15",
+  "label": "West-Bldg-6 canteen pickup cabinet",
+  "file": "西六楼取餐柜，从柜子里拿外卖，还能保温消毒，你用过吗？_视频.mp4",
+  "dur": 46.5,
+  "size": "1280x720",
+  "bright": 156.7,
+  "motion": 2.28,
+  "person_frames": 39,
+  "collision_rate": 0.4359,
+  "apparel_med": 0.0481,
+  "max_blobs": 6,
+  "events": {
+   "LOITERING": 1,
+   "MULTI_RETRIEVAL": 3,
+   "ROI_INTRUSION": 2
+  },
+  "events_total": 6
+ }
+]

@@ -1,0 +1,82 @@
+====================================================================================
+数据集离线评估：共 20 段（标注总数 119）
+每段逐帧运行 YOLOv8n + 柜门估计 + 餐盒检测 + 规则引擎；时间基准为源视频时基
+====================================================================================
+  [  1/20] door_left_open_001             异常     触发=DOOR_LEFT_OPEN,ROI_INTRUSION       ✓
+           1.4s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           15.0s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号
+  [  2/20] door_left_open_002             异常     触发=DOOR_LEFT_OPEN,ROI_INTRUSION       ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           15.9s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号
+  [  3/20] door_left_open_003             异常     触发=DOOR_LEFT_OPEN,ROI_INTRUSION       ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           16.1s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号
+  [  4/20] door_left_open_004             异常     触发=DOOR_LEFT_OPEN,ROI_INTRUSION       ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           16.0s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号
+  [  5/20] flagged_door_retrieval_001     异常     触发=DOOR_LEFT_OPEN,FLAGGED_DOOR_RETRIEVAL,ROI_INTRUSION ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           14.8s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.1s 未关闭（阈值 10.0s），已标记该柜号
+           16.0s  ROI_INTRUSION 目标#2 进入取餐区（累计第 1 次）
+           16.1s  FLAGGED_DOOR_RETRIEVAL 柜格 2 号门处于「未关」标记状态，目标#2 取走了柜内外卖（1 份 → 0 份）
+  [  6/20] flagged_door_retrieval_002     异常     触发=DOOR_LEFT_OPEN,FLAGGED_DOOR_RETRIEVAL,ROI_INTRUSION ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           14.9s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号
+           16.0s  ROI_INTRUSION 目标#2 进入取餐区（累计第 1 次）
+           16.0s  FLAGGED_DOOR_RETRIEVAL 柜格 2 号门处于「未关」标记状态，目标#2 取走了柜内外卖（1 份 → 0 份）
+  [  7/20] flagged_door_retrieval_003     异常     触发=DOOR_LEFT_OPEN,FLAGGED_DOOR_RETRIEVAL,ROI_INTRUSION ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           14.8s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.1s 未关闭（阈值 10.0s），已标记该柜号
+           16.0s  ROI_INTRUSION 目标#3 进入取餐区（累计第 1 次）
+           16.1s  FLAGGED_DOOR_RETRIEVAL 柜格 2 号门处于「未关」标记状态，目标#3 取走了柜内外卖（1 份 → 0 份）
+  [  8/20] flagged_door_retrieval_004     异常     触发=DOOR_LEFT_OPEN,FLAGGED_DOOR_RETRIEVAL,ROI_INTRUSION ✓
+           1.4s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           14.5s  DOOR_LEFT_OPEN 柜格 2 号门已开启 10.0s 未关闭（阈值 10.0s），已标记该柜号
+           16.0s  ROI_INTRUSION 目标#2 进入取餐区（累计第 1 次）
+           16.0s  FLAGGED_DOOR_RETRIEVAL 柜格 2 号门处于「未关」标记状态，目标#2 取走了柜内外卖（1 份 → 0 份）
+  [  9/20] loitering_001                  异常     触发=LOITERING,ROI_INTRUSION            ✓
+           0.7s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           15.1s  LOITERING  目标#1 在外围徘徊 15.1s，进出取餐区 4 次未取餐（阈值 15.0s/3 次）
+  [ 10/20] loitering_002                  异常     触发=LOITERING,ROI_INTRUSION            ✓
+           0.9s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           15.2s  LOITERING  目标#1 在外围徘徊 15.2s，进出取餐区 5 次未取餐（阈值 15.0s/3 次）
+  [ 11/20] loitering_003                  异常     触发=LOITERING,ROI_INTRUSION            ✓
+           1.0s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           15.0s  LOITERING  目标#1 在外围徘徊 15.0s，进出取餐区 4 次未取餐（阈值 15.0s/3 次）
+  [ 12/20] loitering_004                  异常     触发=LOITERING,ROI_INTRUSION            ✓
+           0.7s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           15.1s  LOITERING  目标#1 在外围徘徊 15.1s，进出取餐区 4 次未取餐（阈值 15.0s/3 次）
+  [ 13/20] multi_retrieval_001            异常     触发=MULTI_RETRIEVAL,ROI_INTRUSION      ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           7.5s  MULTI_RETRIEVAL 目标#1 手上持有 2 份外卖（阈值 2 份）
+  [ 14/20] multi_retrieval_002            异常     触发=MULTI_RETRIEVAL,ROI_INTRUSION      ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           7.5s  MULTI_RETRIEVAL 目标#1 手上持有 2 份外卖（阈值 2 份）
+  [ 15/20] multi_retrieval_003            异常     触发=MULTI_RETRIEVAL,ROI_INTRUSION      ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           7.7s  MULTI_RETRIEVAL 目标#1 手上持有 2 份外卖（阈值 2 份）
+  [ 16/20] multi_retrieval_004            异常     触发=MULTI_RETRIEVAL,ROI_INTRUSION      ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+           7.5s  MULTI_RETRIEVAL 目标#1 手上持有 2 份外卖（阈值 2 份）
+  [ 17/20] normal_pickup_001              正常     触发=ROI_INTRUSION                      ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+  [ 18/20] normal_pickup_002              正常     触发=ROI_INTRUSION                      ✓
+           1.4s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+  [ 19/20] normal_pickup_003              正常     触发=ROI_INTRUSION                      ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+  [ 20/20] normal_pickup_004              正常     触发=ROI_INTRUSION                      ✓
+           1.3s  ROI_INTRUSION 目标#1 进入取餐区（累计第 1 次）
+
+====================================================================================
+行为                           段数     命中     漏检     误报     准确段数
+------------------------------------------------------------------------------------
+door_left_open                4      4      0      0        4
+flagged_door_retrieval        4      4      0      0        4
+loitering                     4      4      0      0        4
+multi_retrieval               4      4      0      0        4
+normal_pickup                 4      0      0      0        4
+------------------------------------------------------------------------------------
+合计                           20     16      0      0       20  （段级准确率 100.0%）
+====================================================================================
+总耗时 861.6s（43.08 s/段）
+评估报告已保存：logs\ablation\full.json

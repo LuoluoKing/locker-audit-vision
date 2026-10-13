@@ -1,0 +1,24 @@
+{
+ "key": "v12",
+ "file": "智能外卖交接柜演示视频_视频.mp4",
+ "mode": "default",
+ "range_s": [
+  0.0,
+  21.1
+ ],
+ "size": [
+  1280,
+  720
+ ],
+ "frames": 632,
+ "wall_s": 42.7,
+ "counts": {},
+ "events": [],
+ "normal_retrievals": 0,
+ "stats": {
+  "active_tracks": 0,
+  "tracks_total": 2,
+  "normal_retrievals": 0,
+  "suppressed_by_cooldown": 0
+ }
+}

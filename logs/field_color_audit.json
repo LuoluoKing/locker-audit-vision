@@ -1,0 +1,152 @@
+[
+ {
+  "key": "v01",
+  "file": "20250529凯普迅：复旦大学，外卖柜满了，快递小哥送餐_视频.mp4",
+  "person_frames": 56,
+  "collision_frames": 31,
+  "collision_rate": 0.5536,
+  "apparel_domain_median": 0.1276,
+  "apparel_domain_p90": 0.2417,
+  "max_blobs_in_person": 11
+ },
+ {
+  "key": "v02",
+  "file": "20250530凯普迅：复旦大学，外卖柜取餐_视频.mp4",
+  "person_frames": 28,
+  "collision_frames": 11,
+  "collision_rate": 0.3929,
+  "apparel_domain_median": 0.0009,
+  "apparel_domain_p90": 0.0533,
+  "max_blobs_in_person": 5
+ },
+ {
+  "key": "v03",
+  "file": "20250531凯普迅：复旦大学，外卖柜，快递小哥送餐_视频.mp4",
+  "person_frames": 149,
+  "collision_frames": 72,
+  "collision_rate": 0.4832,
+  "apparel_domain_median": 0.0331,
+  "apparel_domain_p90": 0.3131,
+  "max_blobs_in_person": 13
+ },
+ {
+  "key": "v04",
+  "file": "20250731凯普迅：快递柜，存取快餐_视频.mp4",
+  "person_frames": 335,
+  "collision_frames": 23,
+  "collision_rate": 0.0687,
+  "apparel_domain_median": 0.0013,
+  "apparel_domain_p90": 0.0371,
+  "max_blobs_in_person": 4
+ },
+ {
+  "key": "v05",
+  "file": "从-丰巢快递柜-取件后关门的重要性_视频.mp4",
+  "person_frames": 49,
+  "collision_frames": 23,
+  "collision_rate": 0.4694,
+  "apparel_domain_median": 0.2961,
+  "apparel_domain_p90": 0.372,
+  "max_blobs_in_person": 13
+ },
+ {
+  "key": "v06",
+  "file": "外卖柜_视频 (1).mp4",
+  "person_frames": 27,
+  "collision_frames": 3,
+  "collision_rate": 0.1111,
+  "apparel_domain_median": 0.0013,
+  "apparel_domain_p90": 0.0205,
+  "max_blobs_in_person": 3
+ },
+ {
+  "key": "v07",
+  "file": "外卖柜_视频.mp4",
+  "person_frames": 93,
+  "collision_frames": 28,
+  "collision_rate": 0.3011,
+  "apparel_domain_median": 0.021,
+  "apparel_domain_p90": 0.0692,
+  "max_blobs_in_person": 4
+ },
+ {
+  "key": "v08",
+  "file": "常熟理工学院两校区外卖柜已到位！_视频.mp4",
+  "person_frames": 12,
+  "collision_frames": 5,
+  "collision_rate": 0.4167,
+  "apparel_domain_median": 0.0072,
+  "apparel_domain_p90": 0.155,
+  "max_blobs_in_person": 13
+ },
+ {
+  "key": "v09",
+  "file": "心甜智能柜的使用流程_视频.mp4",
+  "person_frames": 42,
+  "collision_frames": 8,
+  "collision_rate": 0.1905,
+  "apparel_domain_median": 0.2459,
+  "apparel_domain_p90": 0.3599,
+  "max_blobs_in_person": 3
+ },
+ {
+  "key": "v10",
+  "file": "快递柜使用演示，智能快递柜生产厂家_视频.mp4",
+  "person_frames": 21,
+  "collision_frames": 10,
+  "collision_rate": 0.4762,
+  "apparel_domain_median": 0.1604,
+  "apparel_domain_p90": 0.2253,
+  "max_blobs_in_person": 5
+ },
+ {
+  "key": "v11",
+  "file": "无接触取餐 外卖“快递柜”扩大铺设，你接受吗？_视频.mp4",
+  "person_frames": 137,
+  "collision_frames": 41,
+  "collision_rate": 0.2993,
+  "apparel_domain_median": 0.0509,
+  "apparel_domain_p90": 0.1697,
+  "max_blobs_in_person": 16
+ },
+ {
+  "key": "v12",
+  "file": "智能外卖交接柜演示视频_视频.mp4",
+  "person_frames": 0,
+  "collision_frames": 0,
+  "collision_rate": 0.0,
+  "apparel_domain_median": null,
+  "apparel_domain_p90": null,
+  "max_blobs_in_person": 0
+ },
+ {
+  "key": "v13",
+  "file": "智能快递柜演示视频_视频.mp4",
+  "person_frames": 26,
+  "collision_frames": 13,
+  "collision_rate": 0.5,
+  "apparel_domain_median": 0.1485,
+  "apparel_domain_p90": 0.2864,
+  "max_blobs_in_person": 7
+ },
+ {
+  "key": "v14",
+  "file": "芜湖高校流行智能外卖柜_视频.mp4",
+  "person_frames": 6,
+  "collision_frames": 4,
+  "collision_rate": 0.6667,
+  "apparel_domain_median": 0.0244,
+  "apparel_domain_p90": 0.0393,
+  "max_blobs_in_person": 19
+ },
+ {
+  "key": "v15",
+  "file": "西六楼取餐柜，从柜子里拿外卖，还能保温消毒，你用过吗？_视频.mp4",
+  "person_frames": 39,
+  "collision_frames": 17,
+  "collision_rate": 0.4359,
+  "apparel_domain_median": 0.0481,
+  "apparel_domain_p90": 0.0816,
+  "max_blobs_in_person": 6
+ }
+]

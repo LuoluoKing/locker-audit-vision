@@ -1,0 +1,563 @@
+{
+  "yolov8n": {
+    "backend": "yolov8n",
+    "dataset": "CUHK Avenue (training_videos, 均为正常行为)",
+    "videos": 16,
+    "total_frames": 15328,
+    "proc_fps_mean": 28.6,
+    "infer_ms_median": 33.0,
+    "det_per_frame_mean": 8.13,
+    "abnormal_events_total": 19,
+    "per_video": [
+      {
+        "video": "01.avi",
+        "frames": 1364,
+        "fps_src": 25.0,
+        "wall_s": 47.2,
+        "proc_fps": 28.91,
+        "infer_ms_median": 34.8,
+        "det_per_frame_mean": 4.86,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "02.avi",
+        "frames": 1511,
+        "fps_src": 25.0,
+        "wall_s": 51.8,
+        "proc_fps": 29.19,
+        "infer_ms_median": 32.2,
+        "det_per_frame_mean": 5.19,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "03.avi",
+        "frames": 1487,
+        "fps_src": 25.0,
+        "wall_s": 51.9,
+        "proc_fps": 28.64,
+        "infer_ms_median": 33.7,
+        "det_per_frame_mean": 4.95,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 0,
+        "event_types": []
+      },
+      {
+        "video": "04.avi",
+        "frames": 1511,
+        "fps_src": 25.0,
+        "wall_s": 51.4,
+        "proc_fps": 29.37,
+        "infer_ms_median": 31.8,
+        "det_per_frame_mean": 4.52,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "05.avi",
+        "frames": 815,
+        "fps_src": 25.0,
+        "wall_s": 28.1,
+        "proc_fps": 29.01,
+        "infer_ms_median": 32.1,
+        "det_per_frame_mean": 7.6,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 0,
+        "event_types": []
+      },
+      {
+        "video": "06.avi",
+        "frames": 1511,
+        "fps_src": 25.0,
+        "wall_s": 54.1,
+        "proc_fps": 27.95,
+        "infer_ms_median": 36.5,
+        "det_per_frame_mean": 5.13,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 3,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "07.avi",
+        "frames": 1099,
+        "fps_src": 25.0,
+        "wall_s": 39.5,
+        "proc_fps": 27.81,
+        "infer_ms_median": 35.2,
+        "det_per_frame_mean": 7.39,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "08.avi",
+        "frames": 1017,
+        "fps_src": 25.0,
+        "wall_s": 35.6,
+        "proc_fps": 28.55,
+        "infer_ms_median": 32.8,
+        "det_per_frame_mean": 6.85,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "09.avi",
+        "frames": 1391,
+        "fps_src": 25.0,
+        "wall_s": 48.9,
+        "proc_fps": 28.43,
+        "infer_ms_median": 33.6,
+        "det_per_frame_mean": 7.24,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 3,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "10.avi",
+        "frames": 1223,
+        "fps_src": 25.0,
+        "wall_s": 42.4,
+        "proc_fps": 28.83,
+        "infer_ms_median": 32.2,
+        "det_per_frame_mean": 10.74,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "11.avi",
+        "frames": 781,
+        "fps_src": 25.0,
+        "wall_s": 26.9,
+        "proc_fps": 29.03,
+        "infer_ms_median": 31.9,
+        "det_per_frame_mean": 10.45,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "12.avi",
+        "frames": 145,
+        "fps_src": 25.0,
+        "wall_s": 5.1,
+        "proc_fps": 28.2,
+        "infer_ms_median": 33.3,
+        "det_per_frame_mean": 12.91,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 0,
+        "event_types": []
+      },
+      {
+        "video": "13.avi",
+        "frames": 366,
+        "fps_src": 25.0,
+        "wall_s": 12.6,
+        "proc_fps": 29.14,
+        "infer_ms_median": 31.7,
+        "det_per_frame_mean": 11.74,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 0,
+        "event_types": []
+      },
+      {
+        "video": "14.avi",
+        "frames": 510,
+        "fps_src": 25.0,
+        "wall_s": 18.3,
+        "proc_fps": 27.84,
+        "infer_ms_median": 36.0,
+        "det_per_frame_mean": 7.56,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 0,
+        "event_types": []
+      },
+      {
+        "video": "15.avi",
+        "frames": 353,
+        "fps_src": 25.0,
+        "wall_s": 12.4,
+        "proc_fps": 28.36,
+        "infer_ms_median": 33.8,
+        "det_per_frame_mean": 11.16,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 0,
+        "event_types": []
+      },
+      {
+        "video": "16.avi",
+        "frames": 244,
+        "fps_src": 25.0,
+        "wall_s": 8.6,
+        "proc_fps": 28.38,
+        "infer_ms_median": 32.7,
+        "det_per_frame_mean": 11.76,
+        "frames_without_person": 0,
+        "detection_gaps_s": [],
+        "abnormal_events": 0,
+        "event_types": []
+      }
+    ]
+  },
+  "hog": {
+    "backend": "hog",
+    "dataset": "CUHK Avenue (training_videos, 均为正常行为)",
+    "videos": 16,
+    "total_frames": 15328,
+    "proc_fps_mean": 71.78,
+    "infer_ms_median": 13.3,
+    "det_per_frame_mean": 0.11,
+    "abnormal_events_total": 18,
+    "per_video": [
+      {
+        "video": "01.avi",
+        "frames": 1364,
+        "fps_src": 25.0,
+        "wall_s": 18.5,
+        "proc_fps": 73.55,
+        "infer_ms_median": 13.2,
+        "det_per_frame_mean": 0.13,
+        "frames_without_person": 1181,
+        "detection_gaps_s": [
+          5.88,
+          0.52,
+          0.96,
+          0.36,
+          0.48
+        ],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN",
+          "FLAGGED_DOOR_RETRIEVAL"
+        ]
+      },
+      {
+        "video": "02.avi",
+        "frames": 1511,
+        "fps_src": 25.0,
+        "wall_s": 20.3,
+        "proc_fps": 74.38,
+        "infer_ms_median": 13.1,
+        "det_per_frame_mean": 0.17,
+        "frames_without_person": 1333,
+        "detection_gaps_s": [
+          3.6,
+          1.08,
+          9.68,
+          1.0
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "03.avi",
+        "frames": 1487,
+        "fps_src": 25.0,
+        "wall_s": 21.0,
+        "proc_fps": 70.69,
+        "infer_ms_median": 13.3,
+        "det_per_frame_mean": 0.02,
+        "frames_without_person": 1455,
+        "detection_gaps_s": [
+          42.6,
+          1.48,
+          2.08,
+          11.88
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "04.avi",
+        "frames": 1511,
+        "fps_src": 25.0,
+        "wall_s": 21.0,
+        "proc_fps": 71.93,
+        "infer_ms_median": 13.2,
+        "det_per_frame_mean": 0.05,
+        "frames_without_person": 1432,
+        "detection_gaps_s": [
+          17.04,
+          38.56
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "05.avi",
+        "frames": 815,
+        "fps_src": 25.0,
+        "wall_s": 10.8,
+        "proc_fps": 75.29,
+        "infer_ms_median": 12.9,
+        "det_per_frame_mean": 0.0,
+        "frames_without_person": 814,
+        "detection_gaps_s": [
+          16.28
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "06.avi",
+        "frames": 1511,
+        "fps_src": 25.0,
+        "wall_s": 21.9,
+        "proc_fps": 69.07,
+        "infer_ms_median": 13.3,
+        "det_per_frame_mean": 0.07,
+        "frames_without_person": 1400,
+        "detection_gaps_s": [
+          15.76,
+          3.44,
+          0.76,
+          0.4,
+          0.4,
+          0.36
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "07.avi",
+        "frames": 1099,
+        "fps_src": 25.0,
+        "wall_s": 14.9,
+        "proc_fps": 73.82,
+        "infer_ms_median": 13.1,
+        "det_per_frame_mean": 0.1,
+        "frames_without_person": 985,
+        "detection_gaps_s": [
+          0.44,
+          0.36,
+          26.84,
+          1.72
+        ],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "08.avi",
+        "frames": 1017,
+        "fps_src": 25.0,
+        "wall_s": 14.0,
+        "proc_fps": 72.87,
+        "infer_ms_median": 13.3,
+        "det_per_frame_mean": 0.1,
+        "frames_without_person": 918,
+        "detection_gaps_s": [
+          0.4,
+          0.68,
+          14.88,
+          1.12,
+          0.64
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "09.avi",
+        "frames": 1391,
+        "fps_src": 25.0,
+        "wall_s": 21.6,
+        "proc_fps": 64.34,
+        "infer_ms_median": 13.4,
+        "det_per_frame_mean": 0.0,
+        "frames_without_person": 1391,
+        "detection_gaps_s": [],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "10.avi",
+        "frames": 1223,
+        "fps_src": 25.0,
+        "wall_s": 18.7,
+        "proc_fps": 65.27,
+        "infer_ms_median": 13.3,
+        "det_per_frame_mean": 0.0,
+        "frames_without_person": 1222,
+        "detection_gaps_s": [
+          11.68
+        ],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "11.avi",
+        "frames": 781,
+        "fps_src": 25.0,
+        "wall_s": 10.6,
+        "proc_fps": 74.03,
+        "infer_ms_median": 13.1,
+        "det_per_frame_mean": 0.0,
+        "frames_without_person": 778,
+        "detection_gaps_s": [
+          7.52,
+          0.44
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "12.avi",
+        "frames": 145,
+        "fps_src": 25.0,
+        "wall_s": 2.0,
+        "proc_fps": 72.1,
+        "infer_ms_median": 13.3,
+        "det_per_frame_mean": 0.26,
+        "frames_without_person": 108,
+        "detection_gaps_s": [
+          3.2,
+          0.64
+        ],
+        "abnormal_events": 0,
+        "event_types": []
+      },
+      {
+        "video": "13.avi",
+        "frames": 366,
+        "fps_src": 25.0,
+        "wall_s": 4.9,
+        "proc_fps": 74.3,
+        "infer_ms_median": 13.1,
+        "det_per_frame_mean": 0.0,
+        "frames_without_person": 365,
+        "detection_gaps_s": [
+          0.92
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "14.avi",
+        "frames": 510,
+        "fps_src": 25.0,
+        "wall_s": 7.1,
+        "proc_fps": 72.3,
+        "infer_ms_median": 13.4,
+        "det_per_frame_mean": 0.16,
+        "frames_without_person": 428,
+        "detection_gaps_s": [
+          2.12,
+          6.88,
+          0.96,
+          0.84,
+          0.44,
+          0.48
+        ],
+        "abnormal_events": 1,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "15.avi",
+        "frames": 353,
+        "fps_src": 25.0,
+        "wall_s": 4.9,
+        "proc_fps": 71.91,
+        "infer_ms_median": 13.4,
+        "det_per_frame_mean": 0.53,
+        "frames_without_person": 214,
+        "detection_gaps_s": [
+          1.0,
+          0.36,
+          1.76,
+          0.68
+        ],
+        "abnormal_events": 2,
+        "event_types": [
+          "DOOR_LEFT_OPEN"
+        ]
+      },
+      {
+        "video": "16.avi",
+        "frames": 244,
+        "fps_src": 25.0,
+        "wall_s": 3.4,
+        "proc_fps": 72.63,
+        "infer_ms_median": 13.3,
+        "det_per_frame_mean": 0.2,
+        "frames_without_person": 203,
+        "detection_gaps_s": [
+          2.52,
+          2.16,
+          1.12,
+          0.44
+        ],
+        "abnormal_events": 0,
+        "event_types": []
+      }
+    ]
+  }
+}
